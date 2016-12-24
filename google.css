@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', 'Open Sans';
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      list-style-type: none;
+      text-align: right;
+      width: 100%;
+    }
+
+    nav ul li {
+      display: inline-block;
+      font-size: 15px;
+      font-family: 'Roboto';
+      margin: 25px 14px 0 0;
+      font-weight: 300;
+      color: #404040;
+      vertical-align: top;
+
+    }
+
+    .icon {
+      -webkit-filter: opacity(50%);
+      filter: opacity(50%);
+      -webkit-transition: 0.1s;
+      transition: 0.1s;
+    }
+
+    .icon:hover {
+      -webkit-filter: opacity(100%);
+      filter: opacity(100%);
+      -webkit-transition: 0.1s;
+      transition: 0.1s;
+    }
+
+    #apps {
+      position: relative;
+      top: 0px;
+      left: 0;
+      width: 20px;
+    }
+
+    #bell {
+      position: relative;
+      top: -4px;
+      left: 0;
+      width: 30px;
+    }
+
+    #pixel {
+      width: 35px;
+      border-radius: 50%;
+      position: relative;
+      top: -8px;
+      left: 0;
+      margin: 0 10px 0 0px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: inherit;
+    }
+
+    nav ul a:hover {
+      text-decoration: underline;
+    }
+
+    #search {
+
+      text-align: center;
+      position: relative;
+      top: 0;
+      left: 0;
+      margin: 193px 0 0 0;
+      clear: both;
+    }
+
+    #logo {
+        height: 92px;
+
+    }
+
+    #searchBar {
+      width: 580px;
+      height: 18px;
+      font-size: 18px;
+      padding: 9px;
+      border: 1px solid #dfdfdf;
+      margin: 20px 0 0 0;
+      font-family: 'Roboto';
+    }
+
+    #mic {
+      position: relative;
+      top: -31px;
+      left: 280px;
+      width: 17px;
+    }
+
+    #searchBar:hover {
+      border: 1px solid #b3b3b3;
+    }
+
+    #searchBar:focus {
+      border: 1px solid #3d77a7;
+    }
+
+    .butt {
+      width: auto;
+      height: auto;
+      font-size: 14px;
+      padding: 10px 13px 10px 13px;
+      background: #F2F2F2;
+      border: 2px solid #F2F2F2;
+      margin: 0 5px 100px 0px;
+      font-family: Open Sans;
+      font-weight: 600;
+      color: grey;
+      border-radius: 2px;
+      text-align: center;
+      transition: 0.1s;
+      transition-property: border;
+    }
+
+    .butt:hover {
+      color: black;
+      border: 2px solid #c4c4c4;
+      transition: 0.1s;
+      transition-property: border;
+    }
+
+    footer {
+      display: block;
+    }
+
+    footer {
+      width: 100%;
+      height: auto;
+      background: #F2F2F2;
+      margin: 0;
+      padding: 0;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+
+    footer #ul1 {
+      float: left;
+      margin: 0;
+      padding: 10px;
+      padding-left: 18px;
+    }
+
+    footer #ul2 {
+      float: right;
+      margin: 0;
+      padding: 10px;
+      padding-right: 18px;
+    }
+
+    footer ul li {
+      font-size: 18px;
+      padding: 10px;
+      padding-left: 15px;
+      display: inline;
+      color: #666666;
+    }
+
+    li:hover {
+      text-decoration: underline;
+    }
